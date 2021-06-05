@@ -38,13 +38,19 @@
         </nav>
         <ul class="address list">
           <li class="address-item">
-            <a href="mailto:info@devstudio.com" class="site-address"
-              >info@devstudio.com</a
+            <a href="mailto:info@devstudio.com" class="site-address">
+              <svg class="icon-mail-tell" width="16" height="12">
+                <use href="./img/sprite/icon.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="address-item">
-            <a href="tel:+380961111111" class="site-address"
-              >+38 096 111 11 11</a
+            <a href="tel:+380961111111" class="site-address">
+              <svg class="icon-mail-tell" width="10" height="16">
+                <use href="./img/sprite/icon.svg#icon-tell"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -79,71 +85,105 @@
           <h2 class="section-title visually-hidden">Примеры работ</h2>
           <ul class="list examples-card">
             <li class="examples-item">
-              <img src="./img/img-notebook.jpg" alt="Ноутбук" width="370" />
+              <a href="" class="examles-link-item">
+                <img
+                src="./img/examples/img-notebook.jpg"
+                alt="Ноутбук"
+                width="370"
+              />
               <div class="examples-name">
                 <h3 class="section-title">Технокряк</h3>
                 <p>Веб-сайт</p>
-              </div>
+              </div></a>
             </li>
             <li class="examples-item">
-              <img src="./img/img-sport.jpg" alt="Спорт" width="370" />
+              <a href="" class="examles-link-item">
+                <img src="./img/examples/img-sport.jpg" alt="Спорт" width="370" />
               <div class="examples-name">
                 <h3 class="section-title">Постер New Orlean vs Golden Star</h3>
-                <p>Дизайн</p>
-              </div>
+                <p>Дизайн</p></div>
+            </a>
             </li>
             <li class="examples-item">
-              <img src="./img/img-fish.jpg" alt="Рыба" width="370" />
+              <a href="" class="examles-link-item">
+                <img src="./img/examples/img-fish.jpg" alt="Рыба" width="370" />
               <div class="examples-name">
                 <h3 class="section-title">Ресторан Seafood</h3>
                 <p>Приложение</p>
               </div>
+            </a>
             </li>
             <li class="examples-item">
-              <img src="./img/img-headphones.jpg" alt="Наушкини" width="370" />
+              <a href="" class="examles-link-item">
+                <img
+                src="./img/examples/img-headphones.jpg"
+                alt="Наушкини"
+                width="370"
+              />
               <div class="examples-name">
                 <h3 class="section-title">Проект Prime</h3>
                 <p>Маркетинг</p>
-              </div>
+              </div></a>
             </li>
             <li class="examples-item">
-              <img src="./img/img-boxes.jpg" alt="Коробки" width="370" />
+              <a href="" class="examles-link-item">
+                <img
+                src="./img/examples/img-boxes.jpg"
+                alt="Коробки"
+                width="370"
+              />
               <div class="examples-name">
                 <h3 class="section-title">Проект Boxes</h3>
                 <p>Приложение</p>
-              </div>
+              </div></a>
             </li>
             <li class="examples-item">
-              <img src="./img/img-mac.jpg" alt="Компьютер МАС" width="370" />
+              <a href="" class="examles-link-item">
+                <img
+                src="./img/examples/img-mac.jpg"
+                alt="Компьютер МАС"
+                width="370"
+              />
               <div class="examples-name">
                 <h3 class="section-title">Inspiration has no Borders</h3>
                 <p>Веб-сайт</p>
-              </div>
+              </div></a>
             </li>
             <li class="examples-item">
-              <img src="./img/img-journal.jpg" alt="Журнал" width="370" />
+              <a href="" class="examles-link-item">
+                <img
+                src="./img/examples/img-journal.jpg"
+                alt="Журнал"
+                width="370"
+              />
               <div class="examples-name">
                 <h3 class="section-title">Издание Limited Edition</h3>
                 <p>Дизайн</p>
-              </div>
+              </div></a>
             </li>
             <li class="examples-item">
-              <img src="./img/img-label.jpg" alt="Этикетка" width="370" />
+              <a href="" class="examles-link-item">
+                <img
+                src="./img/examples/img-label.jpg"
+                alt="Этикетка"
+                width="370"
+              />
               <div class="examples-name">
                 <h3 class="section-title">Проект LAB</h3>
                 <p>Маркетинг</p>
-              </div>
+              </div></a>
             </li>
             <li class="examples-item">
-              <img
-                src="./img/img-hands.jpg"
+              <a href="" class="examles-link-item">
+                <img
+                src="./img/examples/img-hands.jpg"
                 alt="Руки на клавиатуре"
                 width="370"
               />
               <div class="examples-name">
                 <h3 class="section-title">Growing Business</h3>
                 <p>Приложение</p>
-              </div>
+              </div></a>
             </li>
           </ul>
         </div>
@@ -151,13 +191,48 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="footer-logo"><span>Web</span>Studio</a>
-        <address class="footer-address">
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
+      <div class="container footer-contenet">
+        <div class="footer-logo-address">
+          <a href="./index.html" class="footer-logo"><span>Web</span>Studio</a>
+          <address class="footer-address">
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          </address>
+        </div>
+        <div class="footer-social">
+          <h2>Присоединяйтесь</h2>
+          <ul class="social-list list">
+            <li class="social-list-item">
+              <a href="" class="footer-social-list-link">
+                <svg class="footer-social-list-icon">
+                  <use href="./img/sprite/icon.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="footer-social-list-link">
+                <svg class="footer-social-list-icon">
+                  <use href="./img/sprite/icon.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="footer-social-list-link">
+                <svg class="footer-social-list-icon">
+                  <use href="./img/sprite/icon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="footer-social-list-link">
+                <svg class="footer-social-list-icon">
+                  <use href="./img/sprite/icon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
