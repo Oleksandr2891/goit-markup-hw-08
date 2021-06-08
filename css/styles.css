@@ -876,14 +876,23 @@ a.examles-link-item p {
 
 }
 
+
 .modal-close-btn-icon {
   position: absolute;
   top: 50%;
   height: 50%;
   width: 18px;
   height: 18px;
-  color: var(--color-black);
+  fill: var(--color-black);
   transform: translate(-50%, -50%);
+
+  transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:active .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon {
+  fill: var(--color-blue);
 }
 
 .is-hiden {
@@ -968,7 +977,7 @@ a.examles-link-item p {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input:focus + .modal-form-icon {
+.modal-form-input:hover + .modal-form-icon {
   fill: var(--color-blue);
 }
 
