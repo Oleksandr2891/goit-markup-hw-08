@@ -14,7 +14,7 @@
 /*Цвет для фона для кнопок стр #F5F4FA */
 /*Шрифт основной Roboto 400, 500, 700, 900 */
 /*Шрифт основной Raleway 700 */
-
+/*
 :root {
   --color-black: #000000;
   --color-white: #ffffff;
@@ -26,8 +26,9 @@
   --color-features: #e5e5e5;
   --color-bg-filter: #f5f4fa;
 }
+*/
 /*=============Components===============*/
-
+/*
 html {
   box-sizing: border-box;
 }
@@ -56,7 +57,8 @@ ol {
 img {
   display: block;
 }
-
+*/
+/*
 body {
   background-color: var(--color-white);
   color: var(--color-text);
@@ -64,7 +66,8 @@ body {
     segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   letter-spacing: 0.03em;
 }
-
+*/
+/*
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -91,11 +94,11 @@ body {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-
+*/
 /*=============End Components===============*/
 
 /*=============HEADER=======================*/
-
+/*
 .page-header {
   border-bottom: 1px solid #ececec;
 }
@@ -104,9 +107,9 @@ body {
 .address {
   display: flex;
 }
-
+*/
 /*=============LOGO=======================*/
-
+/*
 .nav .logo {
   display: block;
   padding-top: 25px;
@@ -127,11 +130,11 @@ body {
 .logo > span {
   color: var(--color-blue);
 }
-
+*/
 /*============= END LOGO=================*/
 
 /*============= NAVIGATION - ADDRESS=================*/
-
+/*
 .nav-address {
   display: flex;
   justify-content: space-between;
@@ -199,11 +202,7 @@ a.link.active {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/*
-.address .site-address {
-  text-align: center;
-}
-*/
+
 .address .site-address:hover,
 .address .site-address:focus {
   color: var(--color-blue);
@@ -221,11 +220,11 @@ a.link.active {
 .site-address:focus .icon-mail-tell {
   fill: var(--color-blue);
 }
-
+*/
 /*=============END NAVIGATION - ADDRESS=================*/
 
 /*============= HERO =================*/
-
+/*
 .section.hero {
   padding-bottom: 200px;
   padding-top: 200px;
@@ -253,9 +252,9 @@ a.link.active {
   text-align: center;
   letter-spacing: 0.06em;
 }
-
+*/
 /*============= HERO-BUTTON =================*/
-
+/*
 button.button-hero {
   display: inherit;
   padding: 10px 32px;
@@ -284,13 +283,13 @@ button.button-hero {
   border: 1px solid;
   border-color: var(--color-black);
 }
-
+*/
 /*=============END HERO-BUTTON =================*/
 
 /*=============END HERO=================*/
 
 /*=============PORTFOLIO-FILTER=================*/
-
+/*
 .filter-button-card {
   display: flex;
   justify-content: center;
@@ -332,7 +331,8 @@ button.button-filter:focus {
   background-color: var(--color-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
+*/
+/*
 .filter h3 {
   color: var(--color-title);
   font-size: 18px;
@@ -346,11 +346,11 @@ button.button-filter:focus {
   line-height: 1.87;
   text-align: left;
 }
-
+*/
 /*============= END PORTFOLIO-FILTER=================*/
 
 /*============= FEATURES ==================*/
-
+/*
 .non-padding {
   padding-top: 0;
 }
@@ -390,11 +390,11 @@ button.button-filter:focus {
   line-height: 1.71;
   text-align: left;
 }
-
+*/
 /*============= END FEATURES ==================*/
 
 /*============= OCUPATION ==================*/
-
+/*
 .ocupation-card {
   display: flex;
   flex-wrap: wrap;
@@ -427,11 +427,11 @@ button.button-filter:focus {
 
 
 }
-
+*/
 /*============= END OCUPATION ==================*/
 
 /*============= TEAMS ==================*/
-
+/*
 .teams {
   background-color: var(--color-bg-filter);
 }
@@ -486,7 +486,12 @@ button.button-filter:focus {
   text-align: center;
   margin-bottom: 16px;
 }
+*/
 
+
+
+
+/*
 .social-list {
   display: flex;
   justify-content: space-between;
@@ -520,10 +525,11 @@ button.button-filter:focus {
 .social-list-link:focus .social-list-icon {
   fill: var(--color-white);
 }
-
+*/
 /*============= END TEAMS ==================*/
 
 /*============= EXAMPLES ==================*/
+/*
 .examples-name {
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
@@ -590,7 +596,7 @@ a.examles-link-item p {
   color: var(--color-white);
   width: 100%;
   height: 100%;
-  /*overflow: auto;*/
+
   padding: 63px 24px;
 
   background: rgba(33, 150, 243, 0.9);
@@ -604,11 +610,11 @@ a.examles-link-item p {
   transform: translateY(0%);
   z-index: 100;
 }
-
+*/
 /*============= END EXAMPLES ==================*/
 
 /*============= CLIENTS ==================*/
-
+/*
 .clients-card {
   display: flex;
   justify-content: space-between;
@@ -643,11 +649,11 @@ a.examles-link-item p {
 .clients-list-link:focus {
   border-color: var(--color-blue);
 }
-
+*/
 /*============= END CLIENTS ==================*/
 
 /*============= FOOTER ==================*/
-
+/*
 .footer {
   background-color: var(--color-back-hf);
   padding-top: 60px;
@@ -772,10 +778,10 @@ a.examles-link-item p {
   fill: var(--color-white);
   margin-left: 10px;
 }
-
+*/
 
 /*============= FOOTER - LOGO ==================*/
-
+/*
 .footer .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -792,11 +798,11 @@ a.examles-link-item p {
 .footer .footer-logo > span {
   color: var(--color-blue);
 }
-
+*/
 /*============= END FOOTER - LOGO ==================*/
 
 /*============= FOOTER - ADDRESS ==================*/
-
+/*
 .footer-address > p {
   color: var(--color-white);
 }
@@ -824,12 +830,13 @@ a.examles-link-item p {
 .footer-address > a:focus {
   color: var(--color-blue);
 }
+*/
 /*=============END FOOTER - ADDRESS ==================*/
 
 /*=============END FOOTER ==================*/
 
 /*=============BACKDROP ==================*/
-
+/*
 .backdrop {
   position: fixed;
   top: 0;
@@ -901,10 +908,11 @@ a.examles-link-item p {
   pointer-events: none;
   z-index: -10;
 }
-
+/*
 /*=============END BACKDROP ==================*/
 
 /* ============== MODAL FORM ============== */
+/*
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -1078,6 +1086,6 @@ a.examles-link-item p {
 .modal-form-btn:focus {
   background-color: #188CE8;
 }
-
+*/
 
 /* ============== END MODAL FORM ============== */

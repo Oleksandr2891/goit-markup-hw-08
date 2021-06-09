@@ -1,0 +1,33 @@
+.ocupation {
+  padding-top: 0;
+}
+
+.ocupation__card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.ocupation__item {
+  display: flex;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
+
+.ocupation__meta {
+  position: absolute;
+  width: 100%;
+  padding: 27px;
+  margin-bottom: 0;
+  bottom: 0;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  color: var(--color-white);
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+}
