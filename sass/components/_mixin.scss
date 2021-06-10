@@ -1,0 +1,19 @@
+@mixin card($dpy: flex, $fwp: wrap, $mlt: -30px, $mtp: -30px) {
+  display: $dpy;
+  flex-wrap: $fwp;
+  margin-left: $mlt;
+  margin-top: $mtp;
+}
+
+@mixin card-item(
+  $mlt: 30px,
+  $mtp: 30px,
+  $fbs: calc
+    (
+      (100% - 30px * 4) / 4,
+    )
+) {
+  margin-left: $mlt;
+  margin-top: $mtp;
+  flex-basis: $fbs;
+}
