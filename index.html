@@ -20,10 +20,63 @@
     <header class="page-header">
       <!--Навигация страницы-->
       <div class="container nav-address">
-        <nav class="nav">
-          <a href="./index.html" class="logo"
-            ><span class="logo--accent">Web</span>Studio</a
+        <a href="./index.html" class="logo logo--in-mobile"
+          ><span class="logo--accent">Web</span>Studio</a
+        >
+        <button type="button" class="button__nav" data-menu-button>
+          <svg
+            width="40"
+            height="40"
+            aria-label="Переключатель мобильного меню"
           >
+            <use
+              class="icon-close"
+              href="./img/sprite/icon.svg#icon-close-menu"
+            ></use>
+            <use class="icon-open" href="./img/sprite/icon.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="menu-tablet-desktop">
+          <nav class="nav">
+            <ul class="site-nav list">
+              <li class="site-nav__item">
+                <a href="./index.html" class="link active">Студия</a>
+              </li>
+              <li class="site-nav__item">
+                <a href="./portfolio.html" class="link">Портфолио</a>
+              </li>
+              <li class="site-nav__item">
+                <a href="./index.html" class="link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="address list">
+            <li class="address__item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="address__mail-tell link"
+              >
+                <svg class="icon-mail-tell" width="16" height="12">
+                  <use href="./img/sprite/icon.svg#icon-mail"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="address__item">
+              <a href="tel:+380961111111" class="address__mail-tell link">
+                <svg class="icon-mail-tell" width="10" height="16">
+                  <use href="./img/sprite/icon.svg#icon-tell"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="container menu" data-menu>
+      <div class="menu-mobile">
+        <nav class="nav">
           <ul class="site-nav list">
             <li class="site-nav__item">
               <a href="./index.html" class="link active">Студия</a>
@@ -55,7 +108,7 @@
           </li>
         </ul>
       </div>
-    </header>
+    </div>
     <!--Уникальный контент страницы-->
     <main>
       <!--Героик-->
@@ -535,6 +588,7 @@
         </form>
       </div>
     </div>
+    <script src="js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

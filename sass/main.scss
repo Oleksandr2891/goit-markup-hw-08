@@ -4,23 +4,24 @@
 //-----base----------
 @import "./base/common";
 @import "./base/body";
+@import "./base/mixin";
 @import "./base/container";
 @import "./base/section";
 //-----components---------
 @import "./components/logo";
-@import "./components/social-icon";
-@import "./components/modal-backdrop";
-@import "./components/modal-form";
-@import "./components/footer-form";
-@import "./components/mixin";
+//@import "./components/social-icon";
+//@import "./components/modal-backdrop";
+//@import "./components/modal-form";
+//@import "./components/footer-form";
 //-----layount---------
 @import "./layount/header";
-@import "./layount/hero";
-@import "./layount/hero-button";
-@import "./layount/portfolio-filter";
-@import "./layount/features";
-@import "./layount/ocupation";
-@import "./layount/teams";
-@import "./layount/examples";
-@import "./layount/clients";
-@import "./layount/footer";
+@import "./layount/menu";
+//@import "./layount/hero";
+//@import "./layount/hero-button";
+//@import "./layount/portfolio-filter";
+//@import "./layount/features";
+//@import "./layount/ocupation";
+//@import "./layount/teams";
+//@import "./layount/examples";
+//@import "./layount/clients";
+//@import "./layount/footer";
