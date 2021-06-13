@@ -1,12 +1,11 @@
 .hero {
-  //min-height: 400px;
   background-color: #c4c4c4;
   background-image: linear-gradient(
       to top,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../../img/hero/header_img_mobile.jpg");
+    url("../img/hero/header_img_mobile.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,7 +20,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../img/hero/header_img@2x_mobile.jpg");
+      url("../img/hero/header_img@2x_mobile.jpg");
   }
 }
 /* TABLET */
@@ -32,7 +31,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../img/hero/header_img_tablet.jpg");
+      url("../img/hero/header_img_tablet.jpg");
   }
 }
 
@@ -45,7 +44,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../img/hero/header_img@2x_tablet.jpg");
+      url("../img/hero/header_img@2x_tablet.jpg");
   }
 }
 
@@ -57,7 +56,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../img/hero/header_img_desktop.jpg");
+      url("../img/hero/header_img_desktop.jpg");
   }
 }
 
@@ -70,7 +69,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../img/hero/header_img@2x_desktop.jpg");
+      url("../img/hero/header_img@2x_desktop.jpg");
   }
 }
 
@@ -102,9 +101,3 @@
     @include font($fs: 44px, $lh: 1.36, $ls: 0.06em);
   }
 }
-
-//    font-size: 44px;
-//    line-height: 1.36;
-//    letter-spacing: 0.06em;
-//  }
-//}
