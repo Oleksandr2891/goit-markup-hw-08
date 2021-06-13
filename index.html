@@ -185,27 +185,84 @@
           <h2 class="title-section">Чем мы занимаемся</h2>
           <ul class="list ocupation__card">
             <li class="ocupation__item">
-              <img
-                src="./img/featured/works-one.jpg"
-                alt="Изображение рук на клавиатуре"
-                width="370"
-              />
+              <picture class="picture">
+                <source
+                  srcset="
+                    ./img/ocupation/computer.webp    1x,
+                    ./img/ocupation/computer@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/ocupation/computer.jpg    1x,
+                    ./img/ocupation/computer@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./img/ocupation/computer.jpg"
+                  alt="Изображение рук на клавиатуре"
+                  class="picture-img"
+                />
+              </picture>
+
               <h3 class="ocupation__meta">Десктопные приложения</h3>
             </li>
             <li class="ocupation__item">
-              <img
-                src="./img/featured/works-two.jpg"
-                alt="Изображение рук с телефоном"
-                width="370"
-              />
+              <picture class="picture">
+                <source
+                  srcset="
+                    ./img/ocupation/cellphone.webp    1x,
+                    ./img/ocupation/cellphone@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/ocupation/cellphone.jpg    1x,
+                    ./img/ocupation/cellphone@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./img/ocupation/cellphone.jpg"
+                  alt="Изображение рук с телефоном"
+                  class="picture-img"
+                />
+              </picture>
+
               <h3 class="ocupation__meta">Мобильные приложения</h3>
             </li>
             <li class="ocupation__item">
-              <img
-                src="./img/featured/works-tree.jpg"
-                alt="Изображение рук с планшетом"
-                width="370"
-              />
+              <picture class="picture">
+                <source
+                  srcset="
+                    ./img/ocupation/tablet.webp    1x,
+                    ./img/ocupation/tablet@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/ocupation/tablet.jpg    1x,
+                    ./img/ocupation/tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./img/ocupation/tablet.jpg"
+                  alt="Изображение рук с планшетом"
+                  class="picture-img"
+                />
+              </picture>
+
               <h3 class="ocupation__meta">Дизайнерские решения</h3>
             </li>
           </ul>
@@ -217,11 +274,61 @@
           <h2 class="title-section">Наша команда</h2>
           <ul class="list teams__card">
             <li class="teams__item">
-              <img
-                src="./img/teams/product-designer.jpg"
-                alt="Игорь Демьяненко"
-                width="270"
-              />
+              <picture class="picture">
+                <source
+                  srcset="
+                    ./img/teams/product-designer/designer_desktop.webp    1x,
+                    ./img/teams/product-designer/designer_desktop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/product-designer/designer_desktop.jpg    1x,
+                    ./img/teams/product-designer/designer_desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./img/teams/product-designer/designer_tablet.webp    1x,
+                    ./img/teams/product-designer/designer_tablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/product-designer/designer_tablet.jpg    1x,
+                    ./img/teams/product-designer/designer_tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./img/teams/product-designer/designer_mobile.webp    1x,
+                    ./img/teams/product-designer/designer_mobile@2x.webp 2x
+                  "
+                  media="(min-width: 280px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/product-designer/designer_mobile.jpg    1x,
+                    ./img/teams/product-designer/designer_mobile@2x.jpg 2x
+                  "
+                  media="(min-width: 280x)"
+                />
+                <img
+                  src="./img/teams/product-designer/designer_mobile.jpg"
+                  alt="Игорь Демьяненко"
+                  class="picture-img"
+                />
+              </picture>
+
               <div class="teams__item--padding">
                 <h3 class="teams__name">Игорь Демьяненко</h3>
                 <p class="teams__discription" lang="en">Product Designer</p>
@@ -258,11 +365,60 @@
               </div>
             </li>
             <li class="teams__item">
-              <img
-                src="./img/teams/developer.jpg"
-                alt="Ольга Репина"
-                width="270"
-              />
+              <picture class="picture">
+                <source
+                  srcset="
+                    ./img/teams/developer/developer_desktop.webp    1x,
+                    ./img/teams/developer/developer_desktop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/developer/developer_desktop.jpg    1x,
+                    ./img/teams/developer/developer_desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./img/teams/developer/developer_tablet.webp    1x,
+                    ./img/teams/developer/developer_tablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/developer/developer_tablet.jpg    1x,
+                    ./img/teams/developer/developer_tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./img/teams/developer/developer_mobile.webp    1x,
+                    ./img/teams/developer/developer_mobile@2x.webp 2x
+                  "
+                  media="(min-width: 280px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/developer/developer_mobile.jpg    1x,
+                    ./img/teams/developer/developer_mobile@2x.jpg 2x
+                  "
+                  media="(min-width: 280x)"
+                />
+                <img
+                  src="./img/teams/developer/developer_mobile.jpg"
+                  alt="Ольга Репина"
+                  class="picture-img"
+                />
+              </picture>
               <div class="teams__item--padding">
                 <h3 class="teams__name">Ольга Репина</h3>
                 <p class="teams__discription" lang="en">Frontend Developer</p>
@@ -299,11 +455,61 @@
               </div>
             </li>
             <li class="teams__item">
-              <img
-                src="./img/teams/marketing.jpg"
-                alt="Николай Тарасов"
-                width="270"
-              />
+              <picture class="picture">
+                <source
+                  srcset="
+                    ./img/teams/marketing/marketing_desktop.webp    1x,
+                    ./img/teams/marketing/marketing_desktop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/marketing/marketing_desktop.jpg    1x,
+                    ./img/teams/marketing/marketing_desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./img/teams/marketing/marketing_tablet.webp    1x,
+                    ./img/teams/marketing/marketing_tablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/marketing/marketing_tablet.jpg    1x,
+                    ./img/teams/marketing/marketing_tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./img/teams/marketing/marketing_mobile.webp    1x,
+                    ./img/teams/marketing/marketing_mobile@2x.webp 2x
+                  "
+                  media="(min-width: 280px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/marketing/marketing_mobile.jpg    1x,
+                    ./img/teams/marketing/marketing_mobile@2x.jpg 2x
+                  "
+                  media="(min-width: 280x)"
+                />
+                <img
+                  src="./img/teams/marketing/marketing_mobile.jpg"
+                  alt="Николай Тарасов"
+                  class="picture-img"
+                />
+              </picture>
+
               <div class="teams__item--padding">
                 <h3 class="teams__name">Николай Тарасов</h3>
                 <p class="teams__discription" lang="en">Marketing</p>
@@ -340,11 +546,61 @@
               </div>
             </li>
             <li class="teams__item">
-              <img
-                src="./img/teams/designer.jpg"
-                alt="Михаил Ермаков"
-                width="270"
-              />
+              <picture class="picture">
+                <source
+                  srcset="
+                    ./img/teams/designer/designer_desktop.webp    1x,
+                    ./img/teams/designer/designer_desktop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/designer/designer_desktop.jpg    1x,
+                    ./img/teams/designer/designer_desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./img/teams/designer/designer_tablet.webp    1x,
+                    ./img/teams/designer/designer_tablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/designer/designer_tablet.jpg    1x,
+                    ./img/teams/designer/designer_tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./img/teams/designer/designer_mobile.webp    1x,
+                    ./img/teams/designer/designer_mobile@2x.webp 2x
+                  "
+                  media="(min-width: 280px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./img/teams/designer/designer_mobile.jpg    1x,
+                    ./img/teams/designer/designer_mobile@2x.jpg 2x
+                  "
+                  media="(min-width: 280x)"
+                />
+                <img
+                  src="./img/teams/designer/designer_mobile.jpg"
+                  alt="Михаил Ермаков"
+                  class="picture-img"
+                />
+              </picture>
+
               <div class="teams__item--padding">
                 <h3 class="teams__name">Михаил Ермаков</h3>
                 <p class="teams__discription" lang="en">UI Designer</p>
@@ -389,42 +645,42 @@
       <div class="container">
         <h2 class="title-section">Постоянные клиенты</h2>
         <ul class="list clients-card">
-          <li class="clents-item">
+          <li class="clients__item">
             <a href="" class="clients__link">
               <svg class="clients__icon" width="40" height="46">
                 <use href="./img/sprite/icon.svg#icon-yaco"></use>
               </svg>
             </a>
           </li>
-          <li class="clents-item">
+          <li class="clients__item">
             <a href="" class="clients__link">
               <svg class="clients__icon" width="40" height="52">
                 <use href="./img/sprite/icon.svg#icon-agline"></use>
               </svg>
             </a>
           </li>
-          <li class="clents-item">
+          <li class="clients__item">
             <a href="" class="clients__link">
               <svg class="clients__icon" width="44" height="42">
                 <use href="./img/sprite/icon.svg#icon-company"></use>
               </svg>
             </a>
           </li>
-          <li class="clents-item">
+          <li class="clients__item">
             <a href="" class="clients__link">
               <svg class="clients__icon" width="84" height="40">
                 <use href="./img/sprite/icon.svg#icon-foster"></use>
               </svg>
             </a>
           </li>
-          <li class="clents-item">
+          <li class="clients__item">
             <a href="" class="clients__link">
               <svg class="clients__icon" width="62" height="44">
                 <use href="./img/sprite/icon.svg#icon-brand"></use>
               </svg>
             </a>
           </li>
-          <li class="clents-item">
+          <li class="clients__item">
             <a href="" class="clients__link">
               <svg class="clients__icon" width="94" height="44">
                 <use href="./img/sprite/icon.svg#icon-tagline"></use>

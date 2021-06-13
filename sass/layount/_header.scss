@@ -23,10 +23,10 @@
 }
 
 .button__nav {
-  position: absolute;
+  position: fixed;
   z-index: 100;
-  top: 55%;
-  right: 0%;
+  top: 34px;
+  left: 91%;
   padding: 0;
   background-color: transparent;
   fill: var(--color-black);
@@ -57,10 +57,16 @@
   left: 0;
 }
 
-.button__nav.is-open page-header {
+.button__nav.is-open .page-header {
   position: relative;
   top: 0;
   left: 0;
+}
+
+.button__nav.is-open {
+  position: fixed;
+  top: 34px;
+  right: 0;
 }
 
 .menu-tablet-desktop {
