@@ -52,7 +52,10 @@
 
 .logo-address--position {
   text-align: center;
-  margin-bottom: 60px;
+
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
 
   @media screen and (min-width: 1199px) {
     margin-right: 70px;
@@ -61,7 +64,9 @@
 }
 
 .footer-social {
-  margin-bottom: 60px;
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
 }
 
 .footer-social--action {
@@ -69,6 +74,7 @@
   margin-bottom: 20px;
   text-align: center;
   @include font(14px, 1.14, 0.03em);
+  font-weight: 700;
 
   text-transform: uppercase;
   color: var(--color-white);
@@ -99,6 +105,7 @@
 
 .subscription-form {
   display: flex;
+  width: 100%;
 
   @media screen and (max-width: 1199.98px) {
     flex-direction: column;
@@ -107,6 +114,10 @@
 }
 
 .footer-subscription {
+  @media screen and (max-width: 1199px) {
+    width: 100%;
+  }
+
   @media screen and (min-width: 1199px) {
     margin-left: auto;
   }
@@ -117,9 +128,6 @@
 
   @media screen and (max-width: 1199.98px) {
     margin-bottom: 20px;
-  }
-
-  @media screen and (min-width: 1199px) {
-    margin-left: 20px;
+    width: 100%;
   }
 }

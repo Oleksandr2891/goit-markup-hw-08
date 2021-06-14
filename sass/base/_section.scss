@@ -2,7 +2,7 @@
   padding-bottom: 60px;
   padding-top: 60px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1199px) {
     padding-bottom: 94px;
     padding-top: 94px;
   }
@@ -10,7 +10,12 @@
 
 .title-section {
   color: var(--color-title);
-  @include font(36px, 0.85, 0.03em);
   text-align: center;
-  margin-bottom: 50px;
+  @include font(28px, 1.17, 0.03em);
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1199px) {
+    @include font(36px, 0.85, 0.03em);
+    margin-bottom: 50px;
+  }
 }
