@@ -995,7 +995,7 @@ a.link.active {
   padding-top: 0;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.98px) {
   .ocupation {
     display: none;
   }
