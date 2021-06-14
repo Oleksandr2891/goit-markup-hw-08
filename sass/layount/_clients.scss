@@ -7,12 +7,19 @@
 }
 
 .clients__item {
-  --card-count-item: 2;
   margin-left: var(--gap-left);
   margin-top: var(--gap-top);
   flex-basis: calc(
     (100% - var(--gap-left) * var(--card-count-item)) / var(--card-count-item)
   );
+  @media screen and (max-width: 479.98px) {
+    justify-content: space-around;
+  }
+
+  @media screen and (min-width: 480px) {
+    --card-count-item: 2;
+  }
+
   @media screen and (min-width: 767px) {
     --card-count-item: 3;
   }
@@ -25,7 +32,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 210px;
+  margin: 0 auto;
+  max-width: 210px;
   height: 92px;
   border: 1px solid;
   border-color: #afb1b8;

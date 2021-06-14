@@ -11,17 +11,17 @@
 @import "./components/logo";
 @import "./components/hero-button";
 @import "./components/social-icon";
-//@import "./components/modal-backdrop";
-//@import "./components/modal-form";
-//@import "./components/footer-form";
+@import "./components/portfolio-filter";
+@import "./components/modal-backdrop";
+@import "./components/modal-form";
+@import "./components/footer-form";
 //-----layount---------
 @import "./layount/header";
 @import "./layount/menu";
 @import "./layount/hero";
-//@import "./layount/portfolio-filter";
 @import "./layount/features";
 @import "./layount/ocupation";
 @import "./layount/teams";
-//@import "./layount/examples";
+@import "./layount/examples";
 @import "./layount/clients";
 @import "./layount/footer";

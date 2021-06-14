@@ -13,11 +13,11 @@
   padding-bottom: 16px;
   margin-right: 99px;
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 1199.98px) {
     margin-right: 88px;
   }
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 419.98px) {
     margin-right: auto;
   }
 }
@@ -38,6 +38,11 @@
   &:focus {
     fill: var(--color-blue);
   }
+
+  @media screen and (min-width: 420px) {
+    left: 91%;
+  }
+
   @media screen and (min-width: 768px) {
     display: none;
   }
