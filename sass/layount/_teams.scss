@@ -35,16 +35,16 @@
 
 .teams__name {
   color: var(--color-title);
+  @include font(16px, 1.18, 0.03em);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
+
   text-align: center;
   margin-bottom: 10px;
 }
 
 .teams__discription {
-  font-size: 16px;
-  line-height: 1.18;
+  @include font(16px, 1.18, 0.03em);
+
   text-align: center;
   margin-bottom: 16px;
 }

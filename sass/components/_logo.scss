@@ -1,10 +1,8 @@
 .logo {
-  @include font($fs: 26px, $lh: 1.2, $ls: 0.03em);
+  @include font(26px, 1.2, 0.03em);
   font-family: Raleway, -apple-system, BlinkMacSystemFont, avenir next, avenir,
     segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   font-weight: 700;
-  //font-size: 26px;
-  //line-height: 1.2;
   text-decoration: none;
 }
 

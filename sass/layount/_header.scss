@@ -122,10 +122,9 @@
 
     color: var(--color-title);
 
+    @include font(14px, 1.14, 0.02em);
     font-weight: 500;
-    letter-spacing: 0.02em;
-    font-size: 14px;
-    line-height: 1.14;
+
     text-decoration: none;
   }
 }
@@ -145,7 +144,7 @@
 
 .address__mail-tell {
   @media screen and (min-width: 768px) {
-    @include font($fs: 14px, $lh: 1.17, $ls: 0.02em);
+    @include font(14px, 1.17, 0.02em);
     font-weight: 500;
     color: var(--color-text);
 
@@ -180,10 +179,6 @@
 .site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
-
-//.address-item:last-child {
-//  margin-left: 30px;
-//}
 
 a.link.active {
   position: relative;
